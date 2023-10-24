@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div id="container">
+        <header>
+          <h1>Tabela de contatos</h1>
+        </header>
+       
+        <form id="form">
+          <input required id="nome" type="text" placeholder="Insira o nome">
+          <input required id="tel" type="tel" placeholder="Insira o telefone">
+          <button id="botao-adicionar">CADASTRAR+</button>
+        </form>
+        <table>
+            <thead>
+              <tr>
+                <th >Nome</th>
+                <th >Telefone</th>
+              </tr>
+            </thead>
+            <tbody>
+          </tbody>
+        </table>
+        <p class="alerta">Caso você insira <b>Nome</b> ou <b>Telefone</b> repetido, sera exibido uma mensagem de erro.</p>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
